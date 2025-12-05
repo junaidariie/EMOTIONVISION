@@ -113,26 +113,6 @@ matplotlib>=3.7.0
 seaborn>=0.12.0
 ```
 
-## Deployment
-
-**Render/Vercel** (Recommended):
-
-1. Push to GitHub
-2. Connect requirements.txt + app.py
-3. Add artifacts/ to repo
-4. Deploy → Live URL!
-
-**Docker**:
-
-```dockerfile
-FROM python:3.11-slim
-COPY . /app
-WORKDIR /app
-RUN pip install -r requirements.txt
-EXPOSE 8501
-CMD ["streamlit", "run", "app.py", "--server.port=8501"]
-```
-
 ## Supported Emotions
 
 | Emotion | Emoji |
@@ -143,14 +123,3 @@ CMD ["streamlit", "run", "app.py", "--server.port=8501"]
 | Sad | 😢 |
 | Surprise | 😲 |
 
-## Contributing
-
-1. Fork repo
-2. Train better models → Update `.pth`
-3. Add emotions/datasets
-4. Improve UI/UX
-5. Submit PR!
-
-## License
-
-MIT License - Feel free to use in commercial projects!
