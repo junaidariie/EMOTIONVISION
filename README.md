@@ -2,6 +2,8 @@
 
 A production-ready facial emotion recognition web application built with PyTorch, Streamlit, and transfer learning using ResNet18. Detects 5 emotions (Angry, Fear, Happy, Sad, Surprise) from uploaded face images with confidence scores and emoji visualization.
 
+APP LINK : https://emotionvision-c4fw8qjwfkesqpabqiaavt.streamlit.app/
+
 ## Features
 
 - **Transfer Learning**: Fine-tuned ResNet18 backbone with frozen early layers and trainable final layers
